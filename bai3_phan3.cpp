@@ -1,17 +1,16 @@
 #include<iostream>
 using namespace std;
 
-int main ()
+int main()
 {
+	int a,b;
 	
-	float a,b;
-	cout << "Nhap a: ";
+	cout << "Nhap vao a: ";
 	cin >> a;
-	cout << "Nhap b: ";
+	cout << "Nhap vao b: ";
 	cin >> b;
 	
-	cout << "\nGia tri lon nhat la: " << (a*((2*a*b)/(a+b)) + b*((2*a*b)/(a+b)))/2*a*b;	
-
+	a>b? cout << "a la gia tri lon nhat" : cout << "b la gia tri lon nhat";
 	
 	
 }
